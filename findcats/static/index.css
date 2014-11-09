@@ -20,3 +20,13 @@
 .center {
     text-align: center;
 }
+
+.middle {
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.fix-pic {
+    width: 350px;
+}

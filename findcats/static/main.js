@@ -4,5 +4,8 @@
         $('#lucky').on('click', function() {
             location.reload();
         });
+        $('#lucky').on('mousedown', function() {
+            $(this).text('ヾ(*ΦωΦ)ツ');
+        });
     });
 }());

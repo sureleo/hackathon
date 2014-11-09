@@ -35,19 +35,21 @@
         </div>
     </header>
     <div class="pure-g-r">
-        <div class="pure-u-1">
+        <div class="pure-u-1 middle blueb">
+            <button
+                id="lucky"
+                class="pure-button pure-button-primary middle"
+            >I'm feeling lucky. Click me for more (｡・ω・｡) meow.
+            </button>
             <div class="pure-g-r">
-                <div class="pure-u-1-2">
-                    <p>I'm {{name}}. I'm a {{gender}}. I'm {{castrated}}. </p>
-                    <button
-                        id="lucky"
-                        class="pure-button pure-button-primary"
-                    >I'm feeling lucky.
-                    </button>
+                <div class="pure-u-11-24">
+                    <p class="center white">Here's my selfie:</p>
+                    <img class="fix-pic" src="{{pic}}" alt="404: cat not found."/>
                 </div>
-                <div class="pure-u-1-2">
-                    <p>Here's my selfie:</p>
-                    <img class="pure-img" src="{{pic}}" alt="404: cat not found."/>
+                <div class="pure-u-12-24">
+                    <p class="center white">I'm {{name}}. </p>
+                    <p class="center white">I'm a {{gender}}. </p>
+                    <p class="center white">I'm {{castrated}} </p>
                 </div>
             </div>
         </div>
