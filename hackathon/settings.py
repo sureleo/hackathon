@@ -36,8 +36,13 @@ INSTALLED_APPS = (
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'findcats'
+    'findcats',
+    'django_twilio',
 )
+
+# TWILIO
+TWILIO_ACCOUNT_SID='AC70156c60325b0dd3c2dc8e55ae8023ad'
+TWILO_AUTH_TOKEN='040be197f0c8d5c9d7265c2b0c6590b4'
 
 MIDDLEWARE_CLASSES = (
     'django.contrib.sessions.middleware.SessionMiddleware',
@@ -82,3 +87,4 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/1.7/howto/static-files/
 
 STATIC_URL = '/static/'
+

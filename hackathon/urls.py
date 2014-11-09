@@ -8,4 +8,5 @@ urlpatterns = patterns('',
 
     url(r'^admin/', include(admin.site.urls)),
     url(r'^findcats/', include('findcats.urls')),
+    url(r'^twilio/', include('djtwilio.urls')),
 )
