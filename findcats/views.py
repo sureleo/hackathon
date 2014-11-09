@@ -9,3 +9,6 @@ def index(req):
     resp = urllib2.urlopen(req)
     content = resp.read()
     return HttpResponse(content)
+
+def results(request, cat_id):
+    return HttpResponse("You're looking at the results of poll %s." % cat_id)
