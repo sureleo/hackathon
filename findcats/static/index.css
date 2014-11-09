@@ -1,0 +1,22 @@
+.pure-img {
+    max-width: 50%;
+    max-height: 600px;
+}
+
+.logo .pure-img {
+    display: block;
+    margin: auto;
+}
+
+.white {
+    color: white; 
+    font-weight: bold;
+}
+
+.blueb {
+    background-color: #34B7EF;
+}
+
+.center {
+    text-align: center;
+}
